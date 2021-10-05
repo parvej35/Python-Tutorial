@@ -60,3 +60,15 @@ str_variable = "This is a sample string"
 print(str_variable)
 str_replaced= str_variable.replace("sample", "complex")
 print(str_replaced, end='\n\n')
+
+#------------------------------------------------------------
+
+#String formation
+greeting = "Hello"
+name = "Jhon"
+
+message = "{} {}, Welcome to Python Tutorial!".format(greeting, name)
+print(message)
+
+message = f"{greeting} {name}, This is the another way to string formation."
+print(message, end='\n\n')

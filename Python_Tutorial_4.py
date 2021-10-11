@@ -50,3 +50,12 @@ courses.sort(reverse=True) # Sort list in the descending order
 numbers.sort(reverse=True) # Sort list in the descending order
 print("14)Sort list in the descending order: " + str(courses))
 print("15)Sort list in the descending order: " + str(numbers), end='\n\n')
+
+sorted_courses = sorted(courses) # Sort list without impacting the original list
+print("16)Sort list without impacting the original list: " + str(sorted_courses))
+
+print("===========================================================================", end='\n\n')
+
+numbers = [1, 4, 6, 2, 9, 15, 25, 20]
+total = sum(numbers)
+print("17)Total sum of the value in the list: " + str(total), end='\n\n')

@@ -5,7 +5,6 @@ activity_step_list = []
 activity_burned_calorie_list = []
 
 with open("file/fitbit_exported_data_20211011.csv") as txt_file:
-
     line_number = 0
 
     for str_line in txt_file:
@@ -13,8 +12,10 @@ with open("file/fitbit_exported_data_20211011.csv") as txt_file:
         line_number += 1
 
         if str_line.strip() == "Activities":
-
-            data_values = txt_file.readlines()[line_number:]
+            print(line_number)
+            data_values = txt_file.readlines()
+            # txt_file.read/)
+            print(data_values)
 
             # Date, Calories Burned, Steps, Distance, Floors, Minutes Sedentary, Minutes Lightly Active,
             # Minutes Fairly, Active, Minutes Very Active, Activity Calories
@@ -24,14 +25,17 @@ with open("file/fitbit_exported_data_20211011.csv") as txt_file:
             for value in data_values:
                 line_number += 1
 
-                if value.strip() == "":
+                if len(value.strip()) == 0:
                     break
 
                 else:
-                    # print(str(line_number) + ") " + value.strip())
+                    print(str(line_number) + ") " + value.strip())
 
                     data_array = value.replace("\n", "").split('\",\"')
-                    # print(data_array)
+                    print(data_array)
+                    print(data_array[0])
+                    print(data_array[1])
+                    print(data_array[2])
 
                     activity_date_list.append(data_array[0].replace('\"', ''))
                     activity_burned_calorie_list.append(int(data_array[1].replace(',', '')))

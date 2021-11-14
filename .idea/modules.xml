@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../PythonProgramming/.idea/PythonProgramming.iml" filepath="$PROJECT_DIR$/../PythonProgramming/.idea/PythonProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DSLSR_Final_Assessment_2021-2022/.idea/DSLSR_Final_Assessment_2021-2022.iml" filepath="$PROJECT_DIR$/../DSLSR_Final_Assessment_2021-2022/.idea/DSLSR_Final_Assessment_2021-2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DSLS_PrepProgramming_Exercise/.idea/DSLS_PrepProgramming_Exercise.iml" filepath="$PROJECT_DIR$/../DSLS_PrepProgramming_Exercise/.idea/DSLS_PrepProgramming_Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DSLS_PrepProgramming_Lectures/.idea/DSLS_PrepProgramming_Lectures.iml" filepath="$PROJECT_DIR$/../DSLS_PrepProgramming_Lectures/.idea/DSLS_PrepProgramming_Lectures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python-Project/.idea/Python-Project.iml" filepath="$PROJECT_DIR$/../Python-Project/.idea/Python-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python-Tutorial-OOP-File-Handling/.idea/Python-Tutorial-OOP-File-Handling.iml" filepath="$PROJECT_DIR$/../Python-Tutorial-OOP-File-Handling/.idea/Python-Tutorial-OOP-File-Handling.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonTutorial.iml" filepath="$PROJECT_DIR$/.idea/PythonTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python_Small_Program/.idea/Python_Small_Program.iml" filepath="$PROJECT_DIR$/../Python_Small_Program/.idea/Python_Small_Program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python_Working_With_Form/.idea/Python_Working_With_Form.iml" filepath="$PROJECT_DIR$/../Python_Working_With_Form/.idea/Python_Working_With_Form.iml" />
     </modules>
   </component>
 </project>

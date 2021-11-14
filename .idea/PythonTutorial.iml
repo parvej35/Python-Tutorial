@@ -6,6 +6,12 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.9 (venv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="PythonProgramming" />
+    <orderEntry type="module" module-name="DSLS_PrepProgramming_Exercise" />
+    <orderEntry type="module" module-name="DSLS_PrepProgramming_Lectures" />
+    <orderEntry type="module" module-name="Python_Working_With_Form" />
+    <orderEntry type="module" module-name="Python-Tutorial-OOP-File-Handling" />
+    <orderEntry type="module" module-name="Python_Small_Program" />
+    <orderEntry type="module" module-name="Python-Project" />
+    <orderEntry type="module" module-name="DSLSR_Final_Assessment_2021-2022" />
   </component>
 </module>
